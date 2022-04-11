@@ -134,8 +134,8 @@ public class Main {
 // FUNCTIONS FOR SECUNDARY MENUS OF METHODS OF EACH SPACECRAFT
 
     /**
-     *
-     * @param S1
+     * Submenus for select the methods ShuttleShip
+     * @param S1 Instance of ShuttleShip
      */
     private static void methodsShuttleShip(ShuttleShip S1){
         System.out.println("\n| You can select a function.");
@@ -165,6 +165,10 @@ public class Main {
         }
     }
 
+    /**
+     * Submenus for select the methods UnMannedShip
+     * @param U1 Instance of UnMannedShip
+     */
     private static void methodsUnMannedShip(UnMannedShip U1){
         System.out.println("\n| You can select a function.");
         System.out.println("==================================================");
@@ -199,6 +203,10 @@ public class Main {
         }
     }
 
+    /**
+     * Submenus for select the methods MannedShips
+     * @param M1 Instance of MannedShips
+     */
     private static void methodsMannedShips(MannedShip M1){
         System.out.println("\n| You can select a function.");
         System.out.println("==================================================");
@@ -234,6 +242,10 @@ public class Main {
         }
     }
 
+    /**
+     * Submenus for select the methods HybridShips
+     * @param H1 Instance of HybridShips
+     */
     private static void methodsHybridShips(HybridShip H1){
         System.out.println("\n| You can select a function.");
         System.out.println("==================================================");
